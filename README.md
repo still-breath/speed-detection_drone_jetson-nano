@@ -270,28 +270,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 🚀 Quick Start Guide
-
-### Complete System Setup:
-
-1. **Setup MediaMTX Server on PC**:
-   ```bash
-   # Download and run MediaMTX
-   ./mediamtx
-   ```
-
-2. **Configure Drone RTMP Stream**:
-   ```
-   RTMP URL: rtmp://YOUR-PC-IP:1935/live/drone
-   ```
-
-3. **Run Speed Detection on Jetson Nano**:
-   ```bash
-   python main.py --yolo-weights model.engine --source "rtmp://YOUR-PC-IP:1935/live/drone"
-   ```
-
----
-
 <div align="center">
 <p><strong>⭐ If this project is helpful, don't forget to give it a star!</strong></p>
 <p><em>Created with ❤️ for the advancement of drone technology and computer vision in Indonesia</em></p>
