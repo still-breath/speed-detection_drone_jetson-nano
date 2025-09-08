@@ -70,6 +70,28 @@ Frameworks, Libraries, and Tools used in this project:
 
 ---
 
+## 🖼️ Preview
+
+<div align="center">
+<img src="./images/siang_pt.jpg" alt="Vehicle Speed Detection Demo" width="60%">
+</div>
+
+### 🎥 Sample Results
+- **Daytime Detection**: High accuracy under normal lighting conditions
+- **Nighttime Detection**: Specialized model with mAP50 0.93 for low-light conditions
+- **Real-time Processing**: 10-15 FPS on NVIDIA Jetson Nano
+- **RTMP Streaming**: Live video feed from drone to ground station
+
+### 📈 Performance Metrics
+- **Inference Speed**: 10-15 FPS with TensorRT optimization
+- **Detection Accuracy**: 
+  - Day model: mAP50 0.89
+  - Night model: mAP50 0.93
+- **Tracking Accuracy**: MOTA score 0.85+
+- **Latency**: <200ms end-to-end with RTMP streaming
+
+---
+
 ## ⚙️ Installation & Usage
 
 ### 📋 Prerequisites
@@ -192,28 +214,6 @@ brew install mediamtx && brew services start mediamtx
 - **Get PC IP**: `ipconfig` (Windows) or `ifconfig` (Linux/macOS)
 - **Open Ports**: 1935 (RTMP)
 - **Firewall**: Allow these ports through your firewall
-
----
-
-## 🖼️ Preview
-
-<div align="center">
-<img src="./images/siang_pt.jpg" alt="Vehicle Speed Detection Demo" width="60%">
-</div>
-
-### 🎥 Sample Results
-- **Daytime Detection**: High accuracy under normal lighting conditions
-- **Nighttime Detection**: Specialized model with mAP50 0.93 for low-light conditions
-- **Real-time Processing**: 10-15 FPS on NVIDIA Jetson Nano
-- **RTMP Streaming**: Live video feed from drone to ground station
-
-### 📈 Performance Metrics
-- **Inference Speed**: 10-15 FPS with TensorRT optimization
-- **Detection Accuracy**: 
-  - Day model: mAP50 0.89
-  - Night model: mAP50 0.93
-- **Tracking Accuracy**: MOTA score 0.85+
-- **Latency**: <200ms end-to-end with RTMP streaming
 
 ---
 
